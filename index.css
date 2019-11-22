@@ -1,0 +1,24 @@
+.brands {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5% 10%;
+}
+
+.brand {
+    margin: 2% 5%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.brandImg {
+    border: 1px solid blue;
+    max-width: 150px;
+    height: auto;
+}
+
+.brandText {
+    text-align: center;
+}
